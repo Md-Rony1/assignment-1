@@ -369,6 +369,10 @@ body {
   border-radius: 16px;
 }
 
+.port-img img:hover {
+  transform: scale(1.1);
+}
+
 .port-img .mid-port-img {
   padding: 0px 24px;
 }
@@ -407,7 +411,7 @@ body {
   margin-bottom: 48px;
 }
 
-.mail-and-butn{
+.mail-and-butn {
   display: flex;
 }
 
@@ -426,4 +430,62 @@ body {
   border-radius: 0px 50px 50px 0px;
   background: #F00;
   border: none;
+}
+
+/* footer section  */
+
+footer {
+  background: #070211;
+  width: 1500px;
+  height: 609px;
+  overflow: hidden;
+}
+
+.footer-container {
+  max-width: 1320px;
+  margin: 120px 120px;
+}
+
+footer hr {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.contact >a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.social-link-container {
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.right-container {
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.right-container>button {
+  border: none;
+  font-size: 24px;
+  background: #070211;
+  color: #FFF;
+
+
 }
