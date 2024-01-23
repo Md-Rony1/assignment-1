@@ -267,6 +267,7 @@ body {
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
+  margin: 0px;
 }
 
 .sale-text>h3 {
@@ -274,6 +275,8 @@ body {
   font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
+  margin-top: 12px;
+  margin-bottom: 24px;
 }
 
 .sale-text span {
@@ -287,11 +290,12 @@ body {
   font-family: Inter;
   font-size: 20px;
   font-weight: 500;
+  margin: 0px;
 }
 
 .sale-images {
   display: flex;
-  max-height: 664px;
+  height: 664px;
   margin-top: 64px;
 }
 
@@ -316,7 +320,110 @@ body {
   align-items: center;
 }
 
-.sale-images>.img2>img{
+.sale-images>.img2>img {
   height: 208px;
   width: 208px;
+}
+
+/* portfolio sectiion work */
+
+.portfolio-section {
+  max-width: 1320px;
+  margin: 120px auto;
+}
+
+.port-text>h5 {
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.port-text>h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+
+.port-text>p {
+  max-width: 890px;
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin top: 0px;
+  margin-bottom: 48px;
+}
+
+.port-img {
+  padding-bottom: 24px;
+}
+
+.port-img img {
+  width: 420px;
+  height: 450px;
+  border-radius: 16px;
+}
+
+.port-img .mid-port-img {
+  padding: 0px 24px;
+}
+
+/* subscribe section */
+
+.subscribe-section {
+  max-width: 1320px;
+  height: 616px;
+  margin: 120px auto;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.sub-container {
+  max-width: 750px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.sub-text h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.sub-text p {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+
+.mail-and-butn{
+  display: flex;
+}
+
+.mail-and-butn .email {
+  width: 648px;
+  height: 72px;
+  border-radius: 50px 0px 0px 50px;
+  background: #FFF;
+  border: none;
+
+}
+
+.mail-and-butn .submit-b {
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  border: none;
 }
